@@ -1,5 +1,5 @@
 const pantalla = document.querySelector('.pantalla');
-let numero1, numero2, result, operador;
+let numero1, numero2, operador;
 
 function limpiarPantalla() {pantalla.innerHTML = "";}
 

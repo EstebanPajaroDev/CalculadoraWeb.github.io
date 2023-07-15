@@ -47,6 +47,7 @@ body:hover {
     flex-direction: column-reverse;
     justify-content: space-evenly;
     font-family: 'Gugi', cursive;
+    overflow: hidden;
 }
 
 .circle {
