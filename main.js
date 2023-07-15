@@ -20,8 +20,6 @@ function operaciones(signo) {
 
 function resultado() {
 
-   
-
     if (operador == '+') {
         pantalla.innerHTML = (numero1 + numero2);
     } else if (operador == '-') {
