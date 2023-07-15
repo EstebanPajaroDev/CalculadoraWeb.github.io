@@ -20,11 +20,7 @@ function operaciones(signo) {
 
 function resultado() {
 
-    numero2 = parseInt(pantalla.textContent);
-    const maximoCaracteres = 12;
-    if (pantalla.value.length > maximoCaracteres) {
-        pantalla.value = pantalla.value.slice(maximoCaracteres); 
-    }
+   
 
     if (operador == '+') {
         pantalla.innerHTML = (numero1 + numero2);
