@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Gugi&family=Martian+Mono&display=swap');
+body {
+    transition: 1s;
+    background-color: rgba(43, 43, 43, 0.529);
+}
+body:hover {
+    transition: 2s;
+    background-color: rgb(255, 255, 255);
+}
+.contenedor {
+    border-radius: 0.5rem;
+    border: 3px solid black;
+    margin: auto;
+    padding-top: 3%;
+    width: 25rem;
+    height: 520px;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 5px 5px 5px 1px rgba(135, 135, 135, 0.2);
+}
+.linea {
+    border-radius: 0.5rem;
+    border: 4px solid rgb(255, 255, 255);
+    margin: auto;
+    width: 85%;
+    height: 5rem;
+    background-color: rgb(0, 0, 0);
+    font-size: 30px;
+    text-align: right;
+    font-family: Verdana, Tahoma, sans-serif;
+    padding-top: 10px;
+    
+}
+.pantalla {
+    border-radius: 0.6rem;
+    border: 3px solid black;
+    margin: auto;
+    width: 92%;
+    height: 4rem;
+    background-color: rgb(255, 255, 255);
+    font-size: 40px;
+    text-align: right;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    font-family: 'Gugi', cursive;
+}
+
+.circle {
+    margin: auto;
+    font-size: 30px;
+    font-weight: 600;
+    width: 70px;
+    height: 60px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+}
+.circle:hover:focus {
+    cursor: pointer;
+    transition: 100ms;
+    background-color: rgba(4, 42, 90, 0.453) !important;
+    box-shadow: 0px 0px 5px rgba(43, 160, 1, 0.452);
+}
+
+#item-0, #item-1, #item-2, #item-3, #item-4, #item-5, #item-6, #item-7, #item-8, #item-9, #item-10, #item-11, #item-12, #item-13, #item-14, #item-15, #item-16, #item-17, #item-18, #item-19{
+    border: 3px solid white;
+    background-color: rgb(0, 0, 0);
+}
+
+.angry-grid {
+    display: grid; 
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-top: 5%;
+    width: 90%;
+    gap: 1%;
+    height:75%;
+    margin: auto;
+}
+#item-0 {
+    padding-left: 3px;
+    grid-area: 1/1/2/2;
+}
+#item-1 {
+     grid-area: 1/2/2/3;
+    }
+#item-2 {
+    grid-area: 1/3/2/4;
+ }
+#item-3 {
+     grid-area: 1/4/2/5;
+ }
+#item-4 {
+     grid-area: 2/1/3/2;
+    }
+#item-5 {
+     grid-area: 2/2/3/3;  
+    }
+#item-6 {
+     grid-area: 2/3/3/4; 
+ }
+#item-7 {
+     grid-area: 2/4/3/5;    
+    }
+#item-8 {
+        grid-area: 3/1/4/2;  
+    }
+#item-9 {
+     grid-area: 3/2/4/3;
+    }
+#item-10 {
+        grid-area: 3/3/4/4;
+    }
+#item-11 {
+        grid-area: 3/4/4/5;
+    }
+#item-12 {
+    grid-area: 4/1/5/2;
+ }
+#item-13 {
+     grid-area: 4/2/5/3;
+ }
+#item-14 {
+     grid-area: 4/3/5/4;
+    }
+#item-15 {
+        grid-area: 4/4/5/5;
+    }
+#item-16 {
+    grid-area: 5/1/6/2;
+}
+#item-17 {
+    grid-area: 5/2/6/3;
+}
+#item-18 {
+    grid-area: 5/3/6/4;   
+}
+#item-19 {
+    grid-area: 5/4/6/5;  
+ }
+.signos {
+     filter: invert();
+    }
+    
+
+@media (max-width: 500px) {
+   .angry-grid {
+       width: 80%;
+   }
+   
+   .circle {
+       width: 60px;
+       height: 60px;
+   }
+   .linea {
+    width: 85%;
+    height: 5rem;
+    background-color: rgb(0, 0, 0);
+    text-align: right;
+    
+}
+    .pantalla {
+        width: 92%;
+        height: 4rem;
+        background-color: rgb(255, 255, 255);
+        font-size: 40px;
+    }
+   .contenedor {
+       border-radius: 1rem;
+       margin: auto;
+       padding-top: 3%;
+       width: 20rem;
+       height: 500px;
+   }
+ }
+@media (max-width: 335px) {
+   .angry-grid {
+       width: 90%;
+       gap: 1%;
+   }
+   .circle {
+       font-size: 15px;
+       width: 40px;
+       height: 40px;
+       
+   }
+   .linea {
+    width: 85%;
+    height: 3rem;
+    background-color: rgb(0, 0, 0);
+    text-align: right;
+    
+}
+    .pantalla {
+        width: 90%;
+        height: 2rem;
+        border-radius: 4px;
+        background-color: rgb(255, 255, 255);
+        font-size: 20px;
+    }
+   .contenedor {
+   
+       width: 15rem;
+       height: 370px;
+   }
+ }
+@media (max-width: 255px) {
+
+   .angry-grid {
+       width: 95%;
+       gap: 1%;
+   }
+   
+   .circle {
+    text-align: center ;
+       font-size: 8px;
+       width: 20px;
+       height: 20px;
+       border: 1px solid rgb(255, 255, 255) !important;
+   }
+   .linea {
+    border-radius: 4px;
+    border: 2px solid white;
+    width: 85%;
+    height: 12px;
+    background-color: rgb(0, 0, 0);
+    text-align: right;
+    
+}
+.pantalla {
+    margin-top: -10px;
+    width: 90%;
+    height: 1rem;
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    font-size: 12px;
+}
+.contenedor {
+     border-radius: 5px;
+    width: 8rem;
+    height: 190px;
+}
+ }
+    
+       

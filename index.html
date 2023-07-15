@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CALCULADORA WEB  </title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/128/1176/1176238.png" type="image/x-icon">
+    
+</head>
+<body>
+    
+    <div class="contenedor">
+        <div class="linea">
+            <div class="pantalla" id="pantalla"></div>
+        </div>
+        
+        <div class="angry-grid">
+            
+            <button class="circle" onclick="limpiarPantalla()" id="item-0">AC</button>
+            <button class="circle" onclick="limpiarPantalla()" id="item-1">C</button>
+            <button class="circle" onclick="operaciones('%')" id="item-2">%</button>
+            <button class="circle" onclick="operaciones('✓')" id="item-3"> ✓ </button>
+            <button class="circle" onclick="escribirPantalla(7)" id="item-4">7</button>
+            <button class="circle" onclick="escribirPantalla(8)" id="item-5">8</button>
+            <button class="circle" onclick="escribirPantalla(9)" id="item-6">9</button>
+            <button class="circle" onclick="operaciones('/')" id="item-7">/</button>
+            <button class="circle" onclick="escribirPantalla(4)" id="item-8">4</button>
+            <button class="circle" onclick="escribirPantalla(5)" id="item-9">5</button>
+            <button class="circle" onclick="escribirPantalla(6)" id="item-10">6</button>
+            <button class="circle" onclick="operaciones('*')" id="item-11">X</button>
+            <button class="circle" onclick="escribirPantalla(1)" id="item-12">1</button>
+            <button class="circle" onclick="escribirPantalla(2)" id="item-13">2</button>
+            <button class="circle" onclick="escribirPantalla(3)" id="item-14">3</button>
+            <button class="circle" onclick="operaciones('-')" id="item-15">-</button>
+            <button class="circle" onclick="escribirPantalla(0)" id="item-16">0</button>
+            <button class="circle" onclick="escribirPantalla('.')" id="item-17">.</button>
+            <button class="circle" onclick="resultado()" id="item-18">=</button>
+            <button class="circle" onclick="operaciones('+')" id="item-19">+</button>
+        </div>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
