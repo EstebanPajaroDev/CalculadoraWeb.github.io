@@ -8,11 +8,13 @@ body {
 body:hover {
     transition: 2s;
     background-color: rgb(255, 255, 255);
+    filter: blur(0px);
 }
 .contenedor {
     border-radius: 0.5rem;
     border: 3px solid black;
     margin: auto;
+    margin-top: 150px;
     padding-top: 3%;
     width: 25rem;
     height: 520px;
