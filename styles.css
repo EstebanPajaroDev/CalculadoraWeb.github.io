@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Allura&family=Gugi&family=Martian+Mono&display=swap');
+
 body {
+    filter: blur(1px);
     transition: 1s;
     background-color: rgba(43, 43, 43, 0.529);
 }
